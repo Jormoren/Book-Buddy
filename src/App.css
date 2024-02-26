@@ -1,0 +1,75 @@
+
+body {
+  font-family: Georgia, serif;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+  color: black;
+}
+nav {
+  background-color: rgb(241, 185, 63);
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 500px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+main {
+  margin: 0 auto;
+}
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  transition: box-shadow 300ms;
+  list-style: none;
+}
+img {
+  block-size: 250px;
+}
+.singleBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  transition: box-shadow 300ms;
+  list-style: none;
+}
+.regForm {
+  width: 50%;
+  padding-left: 25%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button {
+  border-radius: 5px;
+  width: 20%;
+}
